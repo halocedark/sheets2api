@@ -1,0 +1,28 @@
+{
+    "name": "holoolaz/sheets2api",
+    "type": "library",
+    "description": "Turn Google Sheets into JSON API and excel files",
+    "keywords": ["google sheets","sheets to json", "json", "excel files", "excel"],
+    "homepage": "https://github.com/holoolaz/sheets2api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdennour Adouani",
+            "email": "holoolaz@gmail.com",
+            "homepage": "https://holoola-z.com/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleSheets2API\\Sheets2API\\": "src/"
+        }
+    }
+}
