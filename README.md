@@ -37,7 +37,7 @@ Let's use our api id '617989cb51352':
 
 #### Get All Spreadsheet Data
 
-***Important:*** Each time you use this api without using **Spreadsheet()** then you're actually selecting the first sheet like the example below:
+***Important:*** Each time you use this api when calling **Spreadsheet()** then you're actually selecting the first sheet like the example below:
 
 ```$response = $sheets2api->Spreadsheet()->get();   // Here you're getting all data from first spreadsheet```
 
